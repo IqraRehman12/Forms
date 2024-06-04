@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Review</title>
+  </head>
+  <body>
+    <table cellspacing="0" cellpadding="10">
+        <tr>
+            <th bgcolor="green">Step 1: Account</th>
+            <th bgcolor="green">Step 2: Personal Details</th>
+            <th bgcolor="blue">Step 3: Your Review</th>
+        </tr>
+    </table>
+   <form action="https://example.com/login.php" method="get">
+        <fieldset>
+            <legend><h2>Your Review</h2></legend>
+            <label>How did you hear about us? 
+                <select name="hear">
+                    <option value="youroption">Select Your Option</option>
+                    <option value="Facebook/Instagram">Facebook/Instagram</option>
+                    <option value="Linkedin">Linkedin</option>
+                    <option value="Google">Google</option>
+                    <option value="Friend">Friend</option>
+                </select></label><br><br>
+
+            <label>Would you visit again ?</label><br><br>
+            <label><input type="radio" name="visit" value="yes">Yes</label>
+            <label><input type="radio" name="visit" value="No">No</label>
+            <label ><input type="radio" name="visit" value="Maybe">Maybe</label><br><br>
+
+            <label>Comments:<br><br>
+            <textarea name="Comments" cols="40" rows="6" placeholder="Enter Your Comments here.." id=""></textarea></label><br><br>
+
+            <label>Documents:<br><br>
+              <input type="file" name="Document">
+            </label><br><br>
+
+            <label>
+                <input type="checkbox" name="Agree" id="">Sign me up for email updates
+            </label><br><br>
+            
+            <a href="personaldetails.html"><img src="images/back.png" height="40" width="120" alt="button back image"></a>
+            <a href="thankyou.html"><img src="images/submit.png" height="40" width="120" alt="button submit image"></a>
+
+        </fieldset>
+    </form>
+  </body>
+</html>
